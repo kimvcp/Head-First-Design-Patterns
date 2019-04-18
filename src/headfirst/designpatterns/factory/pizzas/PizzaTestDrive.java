@@ -3,7 +3,7 @@ package headfirst.designpatterns.factory.pizzas;
 public class PizzaTestDrive {
  
 	public static void main(String[] args) {
-		SimplePizzaFactory factory = new SimplePizzaFactory();
+		SimplePizzaFactory factory = SimplePizzaFactory.getInstance();
 		PizzaStore store = new PizzaStore(factory);
 
 		Pizza pizza = store.orderPizza("cheese");
