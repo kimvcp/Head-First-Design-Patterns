@@ -13,4 +13,7 @@ public class ChicagoStyleHawaiian extends Pizza {
 		toppings.add("Eggplant");
 		toppings.add("Pineapple");
 	}
+	void cut() {
+		System.out.println("Cutting the pizza into square slices");
+	}
 }

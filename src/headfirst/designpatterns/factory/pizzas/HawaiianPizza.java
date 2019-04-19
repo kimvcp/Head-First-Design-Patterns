@@ -4,8 +4,9 @@ public class HawaiianPizza extends Pizza {
 	public HawaiianPizza() {
 		name = "Hawaiian Pizza";
 		dough = "Regular Crust";
-		sauce = "Marinara Pizza Sauce";
+		sauce = "Ketchup Sauce";
 		toppings.add("Fresh Mozzarella");
-		toppings.add("Parmesan");
+		toppings.add("Ham");
+		toppings.add("Pineapple");
 	}
 }

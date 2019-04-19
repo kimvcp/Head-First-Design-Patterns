@@ -27,7 +27,13 @@ public class SoldOutState implements State {
 		gumballMachine.setState(gumballMachine.getNoQuarterState());
 	}
  
+	public void tryMyLuck() {
+		System.out.println("There are no gumballs left to try");
+	}
+	
 	public String toString() {
 		return "sold out";
 	}
+
+
 }
